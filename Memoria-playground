@@ -1,0 +1,46 @@
+//: Playground - noun: a place where people can play
+//Rogelio Fernando Hernández Alarcón
+import UIKit
+
+var numeros = 0...100
+
+for i in numeros {
+    switch i{
+        
+    case i:
+        
+        if i < 30 {
+        
+            if i % 5 == 0{
+                print ("\(i)\tBingo")
+            } else if i % 2 == 1 {
+                print ("\(i)\tNumero Impar")
+                
+            } else if i % 2 == 0 {
+                print ("\(i)\tNumero Par")
+            }
+        }
+        
+        if i > 40 {
+        
+            if i % 5 == 0{
+                print ("\(i)\tBingo")
+            } else if i % 2 == 1 {
+                print ("\(i)\tNumero Impar")
+                
+            } else if i % 2 == 0 {
+                print ("\(i)\tNumero Par")
+            }
+        }
+    
+        if i >= 30 && i <= 40{
+            print ("\(i)\tViva Switch")
+        }
+        
+        
+        
+    default:
+        print (i)
+    }
+
+}
